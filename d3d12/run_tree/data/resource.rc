@@ -1,0 +1,44 @@
+#include "windows.h"
+#include "winver.h"
+
+// Language
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+
+// Icon
+1 ICON DISCARDABLE "logo.ico"
+
+// Version 
+VS_VERSION_INFO VERSIONINFO
+  FILEVERSION 0,0,0,1
+  PRODUCTVERSION 0,0,0,1
+  FILEFLAGSMASK 0x3fL
+
+#ifdef _DEBUG
+ FILEFLAGS VS_FF_DEBUG
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS VOS__WINDOWS32
+ FILETYPE VFT_APP
+ FILESUBTYPE VFT2_UNKNOWN
+
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904E4"
+        BEGIN
+            VALUE "CompanyName", "Starlight Interactive"
+            VALUE "FileDescription", "Manic Rendering Engine (Alpha)"
+            VALUE "FileVersion", "0.0.0.1"
+            VALUE "InternalName", "Manic"
+            VALUE "LegalCopyright", "Copyright (C) Starlight Interactive. 2025"
+            VALUE "OriginalFilename", "Manic.exe"
+            VALUE "ProductName", "Manic Engine"
+            VALUE "ProductVersion", "0.0.REVISION-alpha"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x0409, 1252
+    END
+END
