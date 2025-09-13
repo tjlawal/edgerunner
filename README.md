@@ -1,3 +1,5 @@
+# Edgerunner
+
 This is a collection of renderers built for the sole aim of learning graphics programming. 
 These are mostly contained in a single file and do not represent how I think a proper production system should be architected, but in this case where I am just trying to learn a particular concept, its really convenient and posess the least resistance to progress!
 
