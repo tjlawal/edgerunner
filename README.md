@@ -9,7 +9,7 @@ Note that there are different renderers that have different features but when yo
 
 The `10x` editor is used, and a configuration file is provided. If you use it, just double click the `edgerunner.10x` file and it should work when you hit the build key (whatever you have that mapped to!).
 
-The `ctime.exe` is used to track compile times on your local machine and see just how fast your compiles are. If would like to diable it, you can comment out the appropriate line in the `build.bat` script. An executable is provided in the `miscl` folder. It was created by Casey Muratori.
+The `ctime.exe` is used to track compile times on your local machine and see just how fast your compiles are. If would like to diable it, you can comment out the appropriate line in the `build.bat` script, nothing bad would happen when building, you just wont any idea how long a compile took. An executable is provided in the `miscl` folder. It was created by Casey Muratori.
 
 ## Prereqs
 
